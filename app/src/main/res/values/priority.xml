@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <string-array name="priorities">
+        <item android:color="80ff0000">Urgent</item>
+        <item>Not Urgent</item>
+    </string-array>
+
+</resources> 
