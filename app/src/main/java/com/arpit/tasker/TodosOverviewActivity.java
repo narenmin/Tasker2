@@ -87,8 +87,6 @@ public class TodosOverviewActivity extends ListActivity implements
         startActivity(i);
     }
 
-
-
     private void fillData() {
 
         // Fields from the database (projection)
@@ -126,7 +124,8 @@ public class TodosOverviewActivity extends ListActivity implements
     }
 
     @Override
-    public void onLoaderReset(Loader<Cursor> loader) {
+    public void onLoaderReset(Loader<Cursor> loader)
+    {
         // data is not available anymore, delete reference
         adapter.swapCursor(null);
     }
